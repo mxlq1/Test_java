@@ -6,4 +6,17 @@ public class Calculator {
         return a - b;
     }
 
+    public int multiplyByZero(int a){
+        return 0;
+    }
+
+    public int abs(int a){
+        if (a > 0){
+            return a;
+        }
+        else{
+            return -a;
+        }
+    }
+
 }
