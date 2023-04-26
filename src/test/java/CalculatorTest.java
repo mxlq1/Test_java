@@ -22,6 +22,6 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         assertNotNull(calc);
         int res = calc.abs(-10);
-        assertEquals(-10, res);
+        assertEquals(10, res);
     }
 }
