@@ -19,6 +19,6 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean package
-
-      - name: Test with JUnit
-        run: mvn test
+    test:
+        - name: Test with JUnit
+          run: mvn test
